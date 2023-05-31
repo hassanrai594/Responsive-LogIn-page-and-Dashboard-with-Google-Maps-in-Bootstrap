@@ -1,0 +1,187 @@
+.custom-height {
+    height: 100vh;
+    width: 100%;
+}
+
+.parent {
+    background: #1FAC64;
+}
+
+.sec2 {
+    display: flex;
+}
+
+.sec3 {
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 76px 46px 76px 46px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.p1 {
+    color: #1FAC64;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.p2 {
+    color: #3B3B3B;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.p3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #3B3B3B;
+    margin-top: 20px;
+}
+
+.p4 {
+    color: #4BB877;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.form {
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 34px;
+    color: #FFFFFF;
+    background: #4BB877;
+    border-radius: 10px;
+    border-color: #1FAC64;
+    border-bottom: #1FAC64;
+    border-right: #1FAC64;
+    width: 100%;
+    text-align: center;
+}
+
+.input1 {
+    background: #FFFFFF;
+    border-radius: 10px;
+    background-image: url(../images/mail\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    text-indent: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input1::-webkit-input-placeholder {
+    padding-left: -5px;
+}
+
+.input2 {
+    background: #FFFFFF;
+    border-radius: 10px;
+    background-image: url(../images/lock\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+
+.input2::-webkit-input-placeholder {
+    padding-left: -5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .p1 {
+        font-size: 28px;
+        margin-top: -10px;
+    }
+    .p2 {
+        font-size: 25px;
+        white-space: nowrap;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .p1 {
+        font-size: 28px;
+        margin-top: -10px;
+    }
+    .p2 {
+        font-size: 25px;
+        white-space: nowrap;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    .sec3 {
+        padding: 76px 46px 76px 46px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .p1 {
+        font-size: 25px;
+        margin-top: -10px;
+    }
+    .p2 {
+        font-size: 20px;
+        white-space: nowrap;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    .sec3 {
+        padding: 76px 46px 76px 46px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sec2 {
+        display: none;
+    }
+    .p1 {
+        font-size: 25px;
+    }
+    .p2 {
+        font-size: 20px;
+        margin-top: -20px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sec3 {
+        padding: 56px 30px 76px 30px;
+    }
+}

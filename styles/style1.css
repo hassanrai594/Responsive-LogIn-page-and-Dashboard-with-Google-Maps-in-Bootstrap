@@ -1,0 +1,492 @@
+.parent {
+    background: hsl(0, 0%, 96%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head1 {
+    display: flex;
+    padding: 10px 35px;
+    align-items: center;
+}
+
+.heading {
+    margin-left: 10px;
+}
+
+.p1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1FAC64;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.p2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #3C3C3C;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.head2 {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+}
+
+.p3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #454545;
+    padding-left: 10px;
+}
+
+.p4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.01em;
+    color: #515151;
+    padding-left: 10px;
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 56px;
+    /* display: inline-flex;
+    align-items: self-start; */
+    letter-spacing: 0.01em;
+    color: #A3A3A3;
+    padding-left: 10px;
+}
+
+i {
+    color: #4B4B4B;
+}
+
+.bi-bell {
+    font-size: 20px;
+}
+
+.bi-bell:hover {
+    cursor: pointer;
+}
+
+.option-menu {
+    background: hsl(0, 0%, 96%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    color: #4B4B4B;
+}
+
+.accordion-button:not(.collapsed) {
+    background: hsl(0, 0%, 96%);
+}
+
+.accordion-button:focus {
+    background: hsl(0, 0%, 96%);
+    box-shadow: none;
+}
+
+.accordion-body a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4B4B4B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.card {
+    margin-left: 40px;
+    margin-right: 40px;
+    background: #FFFFFF;
+    border: 5.04585px solid #FFFFFF;
+    box-shadow: 4px 4px 15px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.city-input {
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #A3A3A3;
+    text-align: center;
+}
+
+.input-group>.form-select:focus {
+    z-index: 0;
+}
+
+.city-input:hover {
+    cursor: pointer;
+}
+
+.district-input:hover {
+    cursor: pointer;
+}
+
+.tehsil-input:hover {
+    cursor: pointer;
+}
+
+.search-input:hover {
+    cursor: pointer;
+}
+
+.search-input {
+    background-image: url(../images/Icon\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    padding: 20px 0px;
+    text-indent: 40px;
+    width: 80%;
+}
+
+.district-input {
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #A3A3A3;
+    text-align: center;
+}
+
+.tehsil-input {
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #A3A3A3;
+    text-align: center;
+}
+
+.search-input::placeholder {
+    text-indent: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 56px;
+    /* identical to box height, or 311% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #A3A3A3;
+}
+
+.search-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    background: #1FAC64;
+    border-color: #1FAC64;
+    border-radius: 15px;
+    padding: 0px 35px;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.input-group {
+    border-right: #3C3C3C;
+}
+
+.body1 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.card1 {
+    border-radius: 20px;
+    padding-left: 0;
+}
+
+.card2 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+
+.card3 {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.gmap_canvas {
+    border-radius: 20px;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+.row1 {
+    margin-top: 30px;
+}
+
+.input1 {
+    margin-left: 100px;
+}
+
+
+/* scroll bar styling */
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: gray;
+    border-radius: 0;
+    height: 2px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: gray;
+    border-radius: 0;
+    height: 2px;
+}
+
+.section::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+.icon {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+
+.bi-caret-left-fill {
+    color: #FFFFFF;
+}
+
+
+/* The sidepanel menu */
+
+.sidepanel {
+    height: 250px;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: absolute;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidepanel */
+    height: fit-content;
+}
+
+
+/* The sidepanel links */
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Style the button that is used to open the sidepanel */
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+    display: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+@media screen and (max-width:992px) {
+    .input1 {
+        margin-left: 0px;
+    }
+    .search-btn {
+        padding: 0px 25px;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    .p3 {
+        font-size: 22px;
+    }
+    .p4 {
+        font-size: 18px;
+    }
+    label {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    .icon {
+        left: 10px;
+        top: 22px;
+    }
+    .search-input {
+        background-position: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .openbtn {
+        display: block;
+        position: absolute;
+        right: -4.1%;
+        top: 95%;
+        transform: rotate(270deg);
+        z-index: 1;
+        padding: 5px 15px;
+        border-radius: 15%;
+    }
+    .card1 {
+        padding-right: 0;
+    }
+    .card2 {
+        display: none;
+    }
+    .sidepanel {
+        top: 57%;
+        right: 0;
+    }
+    .row1 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .p1,
+    .p2,
+    .bi-bell,
+    .profile-name {
+        display: none;
+    }
+    .option-menu {
+        padding: 0;
+    }
+    .sidepanel {
+        top: 76%;
+    }
+    .openbtn {
+        right: -5.5%;
+        top: 115%;
+    }
+    .search-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
